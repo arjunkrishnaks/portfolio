@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="media.css" />
+  <link rel="icon" type="image/x-icon" href="" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .parent {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+      background-color: #000;
+      color: white;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    .team1, .team2 {
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .team1:hover {
+      color: aqua;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <div class="parent">
+    <a href="#home" class="team2">Arjunkrishna k s</a>
+    <a href="#home" class="team1">HOME</a>
+    <a href="#about" class="team1">ABOUT</a>
+    <a href="#skills" class="team1">SKILLS</a>
+    <a href="#projects" class="team1">PROJECT</a>
+    <a href="#contact" class="team1">CONTACT</a>
+  </div>
+
+  
+    <!-- Home Section -->
+<section class="child" id="home">
+  <div class="main animate">
+    <h2>Hello It's Me</h2>
+  </div>
+  <div class="main animate" style="animation-delay: 0.5s;">
+    <h1>I'm Arjunkrishna k s</h1>
+  </div>
+  <div class="main animate" style="animation-delay: 1s;">
+    <h2>And I'm a</h2>
+  </div>
+  <div class="main4 animate" style="animation-delay: 1.5s;">
+    <h2>Software Developer</h2>
+  </div>
+  <div class="para animate" style="animation-delay: 2s;">
+    <p>
+      A Result Oriented Web Developer building and managing Websites and Web
+      Applications<br />
+      that leads to the success of the overall product
+    </p>
+  </div>
+</section>
+
+    <div class="social-round">
+        <a href="https://www.instagram.com/invites/contact/?igsh=jpwyvcw73ch6&utm_content=iae90fk" target="_blank" class="icon ig">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://github.com/arjunkrishnaks" target="_blank" class="icon gh">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/arjunkrishna-k-s-a3911530b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="icon li">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </div>
+    <img class="photo" src="images/arjun.png.jpg" alt="" height="1000px" width="300px" />
+  </section>
+         
+  <!-- About Section -->
+  <div class="third" id="about">
+    <h1 id="me">ABOUT ME</h1>
+  </div>
+  <div class="about">
+    <div class="abt">
+      Here you will find more information about me, what I do, and my current skills mostly in terms
+      of programming and technology
+    </div>
+  </div>
+  <div class="p-parent">
+    <div class="forth">
+      <hr />
+      <h1 class="code1">Get to know me!</h1>
+      <p class="code2">
+        Full-stack developer crafting scalable web applications with clean code and modern frameworks.
+        Passionate about <br />
+        building user-centric solutions, optimizing performance, and always learning the next best thing in tech.
+        <br /><br />
+        Skilled in HTML, CSS, and JavaScript, I create responsive, accessible frontends that deliver smooth
+        user experiences.<br />
+        I enjoy turning ideas into polished interfaces that work seamlessly across devices. <br /><br />
+        Equipped to handle both client and server-side development, I build end-to-end solutions that
+        are reliable, efficient, and easy to maintain. <br />
+        I value clean architecture, thoughtful problem-solving, and continuous improvement
+      </p>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <h2>My <span>Skills</span></h2>
+
+    <div class="skills-container">
+      <div class="skills-box">
+        <h3>Coding Skills</h3>
+        <div class="skill">
+          <p>HTML</p>
+          <div class="progress"><div class="bar" style="width: 90%"></div></div>
+        </div>
+        <div class="skill">
+          <p>CSS</p>
+          <div class="progress"><div class="bar" style="width: 80%"></div></div>
+        </div>
+        <div class="skill">
+          <p>JavaScript</p>
+          <div class="progress"><div class="bar" style="width: 65%"></div></div>
+        </div>
+        <div class="skill">
+          <p>Python</p>
+          <div class="progress"><div class="bar" style="width: 70%"></div></div>
+        </div>
+      </div>
+
+      <div class="skills-box">
+        <h3>Professional Skills</h3>
+        <div class="skill">
+          <p>Web Design <span>95%</span></p>
+          <div class="progress"><div class="bar" style="width: 95%"></div></div>
+        </div>
+        <div class="skill">
+          <p>Web Development <span>67%</span></p>
+          <div class="progress"><div class="bar" style="width: 67%"></div></div>
+        </div>
+        <div class="skill">
+          <p>Graphic Design <span>85%</span></p>
+          <div class="progress"><div class="bar" style="width: 85%"></div></div>
+        </div>
+        <div class="skill">
+          <p>SEO Marketing <span>60%</span></p>
+          <div class="progress"><div class="bar" style="width: 60%"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <div class="makkal" id="projects">
+    <div class="manam">PROJECTS</div>
+    <p class="future">
+      Here you will find some of the personal projects that I created with each project containing its own case study.
+    </p>
+    <h1 class="project">W3 SCHOOL NAVBAR CLONE</h1>
+    <p class="clone">
+      An accurate replica of the W3Schools navigation bar created using<br />
+      HTML and CSS, focusing on responsive design, hover effects, and<br />
+      clean layout for seamless user experience.
+    </p>
+    <!-- <img class="laptop" src alt="Project" height="500px" width="500px" /> -->
+  </div>
+
+  <div class="project2">
+    <h1 class="ixigo">TRIVAGO CLONE</h1>
+    <p class="stay">
+      A responsive clone of TRIVAGO built using HTML and CSS,<br />
+      replicating the core layout, navigation bar, profile section, and<br />
+      feed design. Focused on clean UI, responsive structure, and pixel-<br />
+      perfect alignment across devices.
+    </p>
+    <img class="gallery" src="images/Trivako.png.png" alt="pro" height="300px" width="500px" />
+  </div>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <h1 class="section-title">Contact <span>Me!</span></h1>
+  <form action="https://formspree.io/f/arjunsudhi19@gmail.com" method="POST" class="contact-form">
+      <div class="form-group">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+      <div class="form-group">
+        <input type="text" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
+      </div>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+      
+
+  <div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </div>
+ <div>
+  <footer class="footer">
+    <h2 class="logo">Arjunkrishna k s</h2>
+    
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+  
+
+    <p class="copyright">© 2025 Arjunkrishna k s. All rights reserved.</p>
+  </footer>
+ </div>
+
+</body>
+</html>
